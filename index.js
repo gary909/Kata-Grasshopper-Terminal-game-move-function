@@ -1,5 +1,6 @@
 function move (position, roll) {
-    // return the new position
+    var result = (roll * 2) + position;
+    return result;
 }
 
 console.log(move(0, 4));// return 8
